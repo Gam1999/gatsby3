@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-google-sheets',
       options: {
-        spreadsheetId: '1L0aW6utYrcfd7xwYp1cIUkv8As4cFx1ECb0phF9-CEE', worksheetTitle: 'Sheet1', credentials: require('./secret.json')
+        spreadsheetId: '13JQ04J7GJ551QXi66SnM-arBiPfJIebMD6hUFJIiHgQ', worksheetTitle: 'Sheet1', credentials: require('./secret.json')
 
       }
     }
