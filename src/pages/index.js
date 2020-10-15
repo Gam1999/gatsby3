@@ -11,9 +11,6 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
       {posts.map(post => (
         <div
           key={post.id}
@@ -28,7 +25,7 @@ const IndexPage = ({ data }) => {
           />
         </div>
       ))}
-      <Link to="/page-2/">Go to page 2</Link>
+      <Link to="/page-2/">Go to cafe Information</Link>
     </Layout>
   )
 }
